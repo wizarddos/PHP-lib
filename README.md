@@ -33,11 +33,8 @@ to connect with Database to use this library the file has to look like that
 <code>
  
      $host = "here name of host (example: localhost);
-     <br/>
      $db_user = "here username in database";
-     <br/>
      $db_pass = "here password for database";
-     <br/>
      $db_name = "here name of database";
 </code>
 <br/>
