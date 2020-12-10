@@ -1,5 +1,5 @@
 <?php
-    function change_pass($oldpass,$newpass,$record_with_pass,$connection_file){
+    function changepass($oldpass,$newpass,$record_with_pass,$connection_file){
         require_once $connection_file;
         $connect = new mysqli($host,$db_user,$db_pass,$db_name);
         if($connect->connect_error != 0){
