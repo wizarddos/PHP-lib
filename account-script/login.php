@@ -7,7 +7,9 @@
         if($connect->connect_errno != 0 ){
             return $connect->connect_error;
         }else{
-            if($result = $connect->query("SELECT * FROM $table_name WHERE $record_with_login = '$login'")){
+            if($result = $connect->query(
+                sprintf("SELECT * FROM $table_name WHERE $record_with_login='%s'",
+                mysqli_real_escape_string($polaczenie,$login)))){
                 $howMany = $result->num_rows;
                 if($howMany != 0){
                     $row = $result->fetch_assoc();
