@@ -9,15 +9,11 @@
             $safe_title = htmlentities($Title,ENT_QUOTES,"UTF-8");
             $safe_author = htmlentities($author,ENT_QUOTES,"UTF-8");
                 $safe_date = date("Y-m-d");
-                try{
                     if($connection->query("INSERT INTO $table VALUES(NULL,'$safe_title','$safe_article','$safe_author', '$safe_date')")){
                         return true;
                     }else{
-                        throw new Exception($connection->error);
+                        return false;
                     }
-                }catch(Exception $e){
-                    return $e;
-                }
         }
             
     }
