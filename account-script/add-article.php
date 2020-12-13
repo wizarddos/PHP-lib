@@ -1,5 +1,4 @@
 <?php 
-    <?php 
     function addarticle($connect_file_name,$article_content, $table,$Title, $author ){
         require_once $connect_file_name;
         $connection = new mysqli($host, $db_user,$db_pass,$db_name);
