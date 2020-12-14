@@ -30,13 +30,11 @@ in account-script. for Users on your website:
 <br/>
 to connect with Database to use this library the file has to look like that
 <br/>
-<code>
  
-     $host = "here name of host (example: localhost);
+    '$host = "here name of host (example: localhost);
      $db_user = "here username in database";
      $db_pass = "here password for database";
-     $db_name = "here name of database";
-</code>
+     $db_name = "here name of database";'
 <br/>
 tested on MySQL database
 
