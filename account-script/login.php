@@ -1,5 +1,4 @@
 <?php
-    session_start();
     function login($login,$pass, $connect_file, $table_name, $column_with_login, $column_with_pass ){
         $login = htmlentities($login, ENT_QUOTES,"UTF-8");
         require_once $connect_file;
