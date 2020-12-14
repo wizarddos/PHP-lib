@@ -30,7 +30,7 @@ It hashes inserted passwords in default algorythim. to use it you have to know o
 *   old pass - user's old password
 *   new pass - user's new password
 *   column with pass - column with passwords
-*   table name - name of table where you insert paswords
+*   table name - name of table where you insert passwords
 *   connect file name - here you have to insert name of connection file
 
 #### syntax
