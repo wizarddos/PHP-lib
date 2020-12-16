@@ -37,6 +37,7 @@ to connect with Database to use this library the file has to look like that
      $db_name = "here name of database";
 <br/>
 See DOCS.md to know more about library
+<br/>
 tested on MySQL database
 
 
