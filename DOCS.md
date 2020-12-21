@@ -53,9 +53,9 @@ It validates inserted data and checks if it is correct List of parameters:
 
 `login("inserted login", "inserted pass", "connect file name", "name of table", "column with login", "column with pass")`
 
-### send files
+### uploadimg
 
-send files is function used to send files into some dir  
+uploadimg is function used to send images(.jpg,.png,.gif) into some dir  
 It validates image List of parameters:  
 
 *   target dir - directory to upload files
